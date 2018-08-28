@@ -4,18 +4,14 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">  
-    <changeSet id="7" author="Liquibase_Girish">
-        <createTable tableName="order7">
-            <column name="id" type="int">
-                <constraints primaryKey="true" nullable="false"/>
-            </column> 
-            <column name="Ordername" type="varchar(50)"/>
-            <column name="Qty" type="int">
-                <!--<constraints nullable="false"/>-->
-            </column>
-        </createTable>
-    </changeSet>
-	<changeSet id="tag-7.0" author="Liquibase_demo">
-	    <tagDatabase tag="7.0" />
+    <changeSet id="4" author="Ruban">
+    <update tableName="Test Table-1">
+        <column name="Qty" value="1" />
+        <where>Qty='2'</where>
+    </update>
+</changeSet>
+        <changeSet id="4" author="Ruban">
+            <tagDatabase tag="4.0" />
+
 	</changeSet>     
 </databaseChangeLog>
