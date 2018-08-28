@@ -15,7 +15,4 @@
             </column>
         </createTable>
     </changeSet>
-	<changeSet id="tag-2.0" author="Ruban">
-	    <tagDatabase tag="2.0" />
-	</changeSet>     
 </databaseChangeLog>
