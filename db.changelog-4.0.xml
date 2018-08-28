@@ -10,8 +10,4 @@
         <where>Qty='2'</where>
     </update>
 </changeSet>
-        <changeSet id="4" author="Ruban">
-            <tagDatabase tag="4.0" />
-
-	</changeSet>     
 </databaseChangeLog>
