@@ -9,5 +9,7 @@
    <include file="/home/ubuntu/test/db.changelog-3.0.xml"/> 
    <include file="/home/ubuntu/test/db.changelog-4.0.xml"/>
    <include file="/home/ubuntu/test/db.changelog-6.0.xml"/>
-   <include file="/home/ubuntu/test/db.changelog-7.0.xml"/>
+   <include file="/home/ubuntu/test/db.changelog-7.0.xml"/>i
+   <include file="/home/ubuntu/test/db.changelog-10.0.xml"/>
+
 </databaseChangeLog>
