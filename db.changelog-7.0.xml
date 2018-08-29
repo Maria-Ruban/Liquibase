@@ -4,10 +4,15 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">  
-    <changeSet id="16" author="Test1">
-        <dropTable tableName="Test1" />
+    <changeSet id="9" author="Ruban">
+        <createTable tableName="Test Table-3">
+            <column name="id" type="int">
+                <constraints primaryKey="true" nullable="false"/>
+            </column> 
+            <column name="Ordername" type="varchar(50)"/>
+            <column name="Qty" type="int">
+                <!--<constraints nullable="false"/>-->
+            </column>
+        </createTable>
     </changeSet>
-	<changeSet id="tag-16.0" author="Test1">
-	    <tagDatabase tag="16.0" />
-	</changeSet>     
 </databaseChangeLog>
